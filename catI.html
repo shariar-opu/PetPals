@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Cat by Breed</title>
+  <link rel="stylesheet" href="catC.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Find Your Perfect Cat</h1>
+    <div class="select-container">
+      <label for="breeds">Select Breed:</label>
+      <select id="breeds" class="breeds-select"></select>
+      <button id="refreshButton" class="refresh-button">Show Cat!</button>
+    </div>
+    <div class="cat-container">
+      <img id="catImage" class="cat-image" src="" alt="Random Cat Image">
+      <div id="catDetails" class="cat-details">
+        <h2 id="catName" class="cat-name"></h2>
+        <p id="catAge" class="cat-age"></p>
+        <p id="catTypeDetails" class="cat-type-details"></p>
+        <p id="placeName" class="place-name"></p>
+      </div>
+    </div>
+  </div>
+  <script src="catS.js"></script>
+</body>
+</html>

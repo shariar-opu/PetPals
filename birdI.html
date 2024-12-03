@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Bird by Species</title>
+  <link rel="stylesheet" href="birdC.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Find Your Perfect Bird</h1>
+    <div class="select-container">
+      <label for="species">Select Species:</label>
+      <select id="species" class="species-select"></select>
+      <button id="refreshButton" class="refresh-button">Show Bird!</button>
+    </div>
+    <div class="bird-container">
+      <img id="birdImage" class="bird-image" src="" alt="Random Bird Image">
+      <div id="birdDetails" class="bird-details">
+        <h2 id="birdName" class="bird-name"></h2>
+        <p id="birdAge" class="bird-age"></p>
+        <p id="birdTypeDetails" class="bird-type-details"></p>
+        <p id="placeName" class="place-name"></p>
+      </div>
+    </div>
+  </div>
+  <script src="birdS.js"></script>
+</body>
+</html>

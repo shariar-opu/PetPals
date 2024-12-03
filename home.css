@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('dogCat.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgba(201, 223, 173, 0.548);
+  border-radius: 10px; 
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropbtn {
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 25px;
+  background-color: #ff6699;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  font-size: 1rem;
+}
+
+.dropbtn:hover {
+  background-color: #ff4d94;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  text-align: left;
+  border-radius: 8px;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 1rem;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dropdown-content a:hover {
+  background-color: #f4f4f4;
+  color: #ff6699;
+}
+
+.show {
+  display: block;
+}
+
+.animal-details {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.animal-details h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.animal-details p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}

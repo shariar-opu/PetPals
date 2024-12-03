@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Search</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Explore the Animal Kingdom</h1>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="toggleDropdown()">Select Category</button>
+      <div class="dropdown-content" id="dropdownContent">
+        <a href="dogI.html" onclick="displayAnimalDetails();">Dogs</a>
+        <a href="catI.html" onclick="displayAnimalDetails();">Cats</a>
+        <a href="birdI.html" onclick="displayAnimalDetails();">Birds</a>
+      </div>
+    </div>
+    <div id="animalDetails" class="animal-details">
+    </div>
+  </div>
+  <script src="home.js"></script>
+</body>
+</html>

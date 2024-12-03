@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Dog by Breed</title>
+  <link rel="stylesheet" href="dogC.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Find Your Perfect Dog</h1>
+    <div class="select-container">
+      <label for="breeds">Select Breed:</label>
+      <select id="breeds" class="breeds-select"></select>
+      <button id="refreshButton" class="refresh-button">Show Dog!</button>
+    </div>
+    <div class="dog-container">
+      <img id="dogImage" class="dog-image" src="" alt="Random Dog Image">
+      <div id="dogDetails" class="dog-details">
+        <h2 id="dogName" class="dog-name"></h2>
+        <p id="dogAge" class="dog-age"></p>
+        <p id="dogTypeDetails" class="dog-type-details"></p>
+        <p id="placeName" class="place-name"></p>
+      </div>
+    </div>
+  </div>
+  <script src="dogS.js"></script>
+</body>
+</html>

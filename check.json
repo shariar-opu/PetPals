@@ -1,0 +1,61 @@
+{
+    "numRecordings": "1",
+    "numSpecies": "1",
+    "page": 1,
+    "numPages": 1,
+    "recordings": [
+        {
+            "id": "694038",
+            "gen": "Troglodytes",
+            "sp": "troglodytes",
+            "ssp": "",
+            "group": "birds",
+            "en": "Eurasian Wren",
+            "rec": "Jacobo Ramil MIllarengo",
+            "cnt": "Spain",
+            "loc": "Sisalde, Ames, A Coru\u00f1a, Galicia",
+            "lat": "42.8373",
+            "lng": "-8.652",
+            "alt": "30",
+            "type": "song",
+            "sex": "male",
+            "stage": "adult",
+            "method": "field recording",
+            "url": "\/\/xeno-canto.org\/694038",
+            "file": "\/\/xeno-canto.org\/694038\/download",
+            "file-name": "XC694038-211223_02Carrizo variaci\u00f3ns dunha frase bastante stereotipada siteD 9.30 Sisalde.mp3",
+            "sono": {
+                "small": "\/\/xeno-canto.org\/sounds\/uploaded\/LHCOINSOBZ\/ffts\/XC694038-small.png",
+                "med": "\/\/xeno-canto.org\/sounds\/uploaded\/LHCOINSOBZ\/ffts\/XC694038-med.png",
+                "large": "\/\/xeno-canto.org\/sounds\/uploaded\/LHCOINSOBZ\/ffts\/XC694038-large.png",
+                "full": "\/\/xeno-canto.org\/sounds\/uploaded\/LHCOINSOBZ\/ffts\/XC694038-full.png"
+            },
+            "osci": {
+                "small": "\/\/xeno-canto.org\/sounds\/uploaded\/LHCOINSOBZ\/wave\/XC694038-small.png",
+                "med": "\/\/xeno-canto.org\/sounds\/uploaded\/LHCOINSOBZ\/wave\/XC694038-med.png",
+                "large": "\/\/xeno-canto.org\/sounds\/uploaded\/LHCOINSOBZ\/wave\/XC694038-large.png"
+            },
+            "lic": "\/\/creativecommons.org\/licenses\/by-nc-sa\/4.0\/",
+            "q": "A",
+            "length": "4:08",
+            "time": "09:30",
+            "date": "2021-12-23",
+            "uploaded": "2021-12-27",
+            "also": [
+                "Turdus viscivorus",
+                "Turdus iliacus",
+                "Parus major"
+            ],
+            "rmk": "A male repeat a stereotyped phrase with few syllabic variation. HPF 270 Hz. It\u00b4s raining.",
+            "bird-seen": "yes",
+            "animal-seen": "yes",
+            "playback-used": "no",
+            "temp": "",
+            "regnr": "",
+            "auto": "unknown",
+            "dvc": "",
+            "mic": "",
+            "smp": "44100"
+        }
+    ]
+}

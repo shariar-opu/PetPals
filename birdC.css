@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('bird3.jpg.webp');
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  margin-bottom: 0.5rem;
+  margin-top: -1rem;
+}
+
+.search-box {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.breeds-select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.refresh-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.refresh-button:hover {
+  background-color: #0056b3;
+}
+
+.bird-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.bird-details {
+  max-width: 400px;
+  margin-left: 0.5rem;
+  color: whitesmoke;
+}
+
+.bird-image {
+  padding: 1rem 1rem;
+  max-width: calc(50% - 0.5rem);
+  border-radius: 4px;
+  margin-bottom: -0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
